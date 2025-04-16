@@ -21,7 +21,7 @@ namespace CodeReviewTraining
         public OrderProcessor(ILogger<OrderProcessor> logger, IValidator validator, IDatabase database)
         {
             _logger = logger;
-            _validator = validator;
+           // _validator = validator;
             _database = database;
         }
 
